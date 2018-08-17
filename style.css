@@ -1,0 +1,31 @@
+.affichage
+{
+	margin:auto;
+	border-collapse: collapse;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+td
+{
+	width:400px;
+	height:100px;
+	border:1px solid black;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+#formulaire{
+	margin-top: 50px;
+	margin-left: 500px;
+}
+.btn{
+	margin-left: 100px;
+}
+nav{
+	background-color: grey;
+}
