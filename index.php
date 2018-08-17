@@ -18,18 +18,18 @@
 <div id="formulaire">
   <form method="POST" ACTION="">
     <div class="form-group row">
-    <label for="inputPassword" class="col-sm-2 col-form-label">Lieu :*</label>
-    <div class="col-sm-10">
+    <label for="inputLieu" class="col-sm-2 col-form-label">Lieu :*</label>
+    <div class="col-sm-5">
       <input type="text" class="form-control" name="lieu">
     </div>
-    <div class="element"> 
-      <label>Date :*</label>
-      <input type="text" name="date">
-    </div>
-    <div class="element">
-      <label>Nombres :*</label>
-      <input type="text" name="nombre">
-    </div>
+    <div class="form-group row">
+    <label for="inputDate" class="col-sm-2 col-form-label">Date :*</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" name="date">
+    <div class="form-group row">
+    <label for="inputNombre" class="col-sm-2 col-form-label">Nombres :*</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" name="nombre">
     <div class="element">
       <button  class="btn btn-success" name="submit" type="submit" value="Envoyer">Envoyer</button>
     </div>
